@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>unit converter</title>
+        <meta name="description" content="a unit converter that convert kilometer to mile and mile to kilometer"> 
+        <link rel="stylesheet"  href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>unit converter</h1>
+            <input id="takenValue" type="number" placeholder="enter number">
+            <select id="selected" name="convertion">
+                <option  value="kilometer to miles">kilometer to miles</option>
+                <option value="miles to killometer">miles to kilometer</option>
+            </select>
+            <button onclick="calculate()">convert</button>
+            <p id="result"></p>
+        </div>\
+        <script src="script.js"></script>
+    </body>  
+</html>
