@@ -34,7 +34,7 @@ This project was built to practice:
 ---
 
 ## 📸 Preview
-![Unit Converter](./unit-converter.png)
+![Unit Converter](unit-converter.png)
 
 ---
 
